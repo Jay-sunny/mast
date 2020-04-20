@@ -71,14 +71,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--解决Platform-Bom与Spring-Cloud-Dependencies的依赖冲突-->
-<!--            <dependency>-->
-<!--                <groupId>io.spring.platform</groupId>-->
-<!--                <artifactId>platform-bom</artifactId>-->
-<!--                <version>Brussels-SR11</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
             <!--SpringCloud版本依赖-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
