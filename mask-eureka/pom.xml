@@ -12,6 +12,7 @@
     <groupId>com.github.mask</groupId>
     <artifactId>mask-eureka</artifactId>
     <version>${mask.version}</version>
+    <packaging>jar</packaging>
     <name>mask-eureka</name>
     <description>Mask 服务中心</description>
 

@@ -12,6 +12,7 @@
     <groupId>com.github.mask</groupId>
     <artifactId>mask-config</artifactId>
     <version>${mask.version}</version>
+    <packaging>jar</packaging>
     <name>mask-config</name>
     <description>Mask 配置中心</description>
 
