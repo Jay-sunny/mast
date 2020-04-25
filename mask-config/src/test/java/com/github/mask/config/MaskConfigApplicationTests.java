@@ -1,4 +1,4 @@
-package com.github.mask.mask.config;
+package com.github.mask.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

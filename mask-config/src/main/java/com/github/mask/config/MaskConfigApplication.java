@@ -1,4 +1,4 @@
-package com.github.mask.mask.config;
+package com.github.mask.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
