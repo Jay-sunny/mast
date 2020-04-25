@@ -1,7 +1,7 @@
 ## Mask
 
 ### 简介
-说点什么好呢？？？以后补冲。
+Mask后台权限管理系统基于SpringBoot、SpringCloud
 
 ### 权益
 
