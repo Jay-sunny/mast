@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github</groupId>
         <artifactId>mask</artifactId>
-        <version>1.0.0</version>
+        <version>${mask.version}</version>
     </parent>
 
     <groupId>com.github.mask</groupId>
