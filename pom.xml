@@ -29,6 +29,7 @@
 
     <modules>
         <module>mask-eureka</module>
+        <module>mask-config</module>
     </modules>
 
     <dependencies>
@@ -47,6 +48,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--断路器依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
         <!--Lombok-->
         <dependency>
