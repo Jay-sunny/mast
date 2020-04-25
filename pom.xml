@@ -13,8 +13,9 @@
     <groupId>com.github</groupId>
     <artifactId>mask</artifactId>
     <version>${mask.version}</version>
+    <packaging>pom</packaging>
     <name>mask</name>
-    <description></description>
+    <description>Mask 统一版本管理</description>
 
     <!--统一版本管理-->
     <properties>
@@ -30,6 +31,7 @@
     <modules>
         <module>mask-eureka</module>
         <module>mask-config</module>
+        <module>mask-gateway</module>
     </modules>
 
     <dependencies>
