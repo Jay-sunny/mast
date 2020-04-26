@@ -1,7 +1,8 @@
-  ${AnsiColor.BRIGHT_YELLOW}
-    __  __           _
-    |  \/  |         | |
-    | \  / | __ _ ___| | __
-    | |\/| |/ _` / __| |/ /
-    | |  | | (_| \__ \   <
-    |_|  |_|\__,_|___/_|\_\
+# 服务网关端口号
+server:
+  port: 8780
+spring:
+  application:
+    name: @artifactId@ # 服务网关名称
+  profiles:
+    active: dev
