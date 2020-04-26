@@ -2,8 +2,8 @@ eureka:
   instance:
     hostname: 127.0.0.1 #服务注册中心IP地址
   client:
-    registerWithEureka: false #是否向服务注册中心注册自己
-    fetchRegistry: false #是否检索服务
+    registerWithEureka: false #是否向服务注册中心注册自己（false不向注册中心注册自己）
+    fetchRegistry: false #是否检索服务（false表示自己就是注册中心，不用去检索服务）
     serviceUrl: #服务注册中心的配置内容，指定服务注册中心的位置
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
