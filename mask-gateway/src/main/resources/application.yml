@@ -6,3 +6,12 @@ spring:
     name: @artifactId@ # 服务网关名称
   profiles:
     active: dev
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true # 参数设置为true，开启通过服务来访问Config Server的功能
+        service-id: mask-config #参数来指定Config Server注册的服务名
+      label: ${spring.profiles.active}
